@@ -60,3 +60,6 @@ function convertToNumber(ratingHtml) {
     let numericRating=ratingHtml.replace(/&starf;/g,'').length;
     return numericRating;
 }
+
+// To make it so the movie name needs at least 2 characters, you would add if(movieName.length>=2),
+//      but I know at least one movie that's only one character long so I didn't include it
