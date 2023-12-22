@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Rate your favorite movies!</h1>
+
+    <form id="sorting" action="#" method="post">
+        <select id="dropdown" name="dropdown">
+            <option value="" disabled selected>------------------</option>
+            <option value="alpha">Alphabetically</option>
+            <option value="rating">Rating</option>
+            <input type="submit" value="Sort">
+    </form>
+    <br>
+    <form id="movies" action="">
+        <label for="movie-name">Movie Name</label>
+        <input type="text" name="movie-name">
+        <label for="rating">Rating</label>
+        <input type="number" name="rating">
+        <input type="submit" class="submit">
+    </form>
+
+    <main>
+        <ol id="name"></ol><hr>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</body>
+</html>

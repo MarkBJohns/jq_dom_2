@@ -1,0 +1,24 @@
+li{
+    display: flex;
+}
+ol{
+    border-bottom: 2px solid black;
+}
+li{
+    border-top: 1px solid black;
+    text-align: left;
+}
+li div{
+    border-left: 1px solid black;
+}
+li div:first-child{
+    background-color: lightblue;
+    width: 40vw;
+}
+li div:nth-child(2){
+    background-color: lightgray;
+    width: 30vw;
+}
+li div:nth-child(3){
+    width: 4vw;
+}
